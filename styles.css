@@ -99,7 +99,7 @@ a:hover{
 
 
 @media screen and (min-width: 601px) {
-.banner .gallerytext {
+.banner{
     font-size: 35px;
 	  font-family: Cambria, "Hoefler Text", "Liberation Serif", "serif";
   }
@@ -107,7 +107,22 @@ a:hover{
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
-.banner .gallerytext {
+.banner{
+    font-size: 15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", "serif";
+  }
+}
+
+@media screen and (min-width: 601px) {
+.gallerytext{
+    font-size: 35px;
+	  font-family: Cambria, "Hoefler Text", "Liberation Serif", "serif";
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+.gallerytext{
     font-size: 15px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", "serif";
   }
