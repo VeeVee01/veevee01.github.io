@@ -14,31 +14,6 @@ body {
 	margin-top: 30px;
 	margin-left: 15px;
 }
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-	
-.left {
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  color: white;
-  opacity: 0.8; 
-}
-
-.right {
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  color: white;
-  opacity: 0.8; 
-}
 	
 .nav-custom { 
 	color: black;
@@ -50,7 +25,7 @@ body {
 a.navi-link{ 
 	color: black;
 	font-size: 25px;
-	margin-left: 30px;
+	margin-left: 0px;
 	margin-top: 0px;
 }
 a.gallery:hover{ 
