@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Valtteri Vikström Photography</title>
+  </head>
+  <body>
+	 <div class="container-fluid">
+	  <div class="row align-items-end">
+		 	<div class="col-md-2"><img src="nimi.jpg" alt="Logo" style="width:300px;"></div>
+			<div class="col-md-10">
+				<ul class="nav nav-tabs nav-custom justify-content-end">
+  					<li class="nav-item">
+  					  
+    					<a class="nav-link" href="index.html">Home</a>
+  					</li>
+  					<li class="nav-item">
+   						<a class="nav-link" href="galleria.html">Gallery</a>
+ 					</li>
+ 					</li>
+					<li class="nav-item">
+    					<a class="nav-link" href="contact.html">Contact</a>
+  					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ <div class="container justify-content-center">
+        <div class="row galleria mx-auto no-gutters" style="margin-top:200px">
+            <div class="col-md-4">
+			<a class="gallery" href="Galleria/corfu.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/corfu-640x480.jpg" class="img-fluid" style="width:100%">
+				</a></div>
+		 	<div class="col-md-4">
+            <a class="gallery" href="Galleria/DSCF1137.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/DSCF1137-640x480.jpg"https://unsplash.it/600.jpg?image=252"" class="img-fluid" style="width:100%">
+				</a></div>
+			<div class="col-md-4">
+            <a class="gallery" href="Galleria/DSCF1773-HDR.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/DSCF1773-HDR-640x480.jpg"https://unsplash.it/600.jpg?image=253"" class="img-fluid" style="width:100%">
+				</a>
+			</div>
+	 </div>
+       	<div class="row galleria mx-auto no-gutters">
+            <div class="col-md-4"><a class="gallery" href="Galleria/DSCF1803.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/DSCF1803-640x480.jpg" class="img-fluid" style="width:100%">
+				</a></div>
+            <div class="col-md-4"><a class="gallery" href="Galleria/DSCF2608-HDR.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/DSCF2608-HDR-640x480.jpg" class="img-fluid" style="width:100%">
+				</a></div>
+            <div class="col-md-4"><a class="gallery" href="Galleria/IMG_20190525_144525.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/IMG_20190525_144525-640x480.jpg" class="img-fluid" style="width:100%">
+				</a></div>
+		</div>
+		<div class="row galleria mx-auto no-gutters">
+            <div class="col-md-4"><a class="gallery" href="Galleria/P5280263.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/P5280263-640x480.jpg" class="img-fluid" style="width:100%">
+				</a></div>
+            <div class="col-md-4"><a class="gallery" href="Galleria/P6271164-HDR.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/P6271164-HDR-640x480.jpg"class="img-fluid" style="width:100%">
+				</a></div>
+            <div class="col-md-4"><a class="gallery" href="Galleria/P9261016.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="Galleria/P9261016-640x480.jpg" class="img-fluid" style="width:100%">
+				</a></div>
+		
+		</div>
+	 </div>
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+  <script src="js/bootstrap-4.4.1.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script><br>
+<script type="text/javascript">$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });</script>
+</body>
+</html>
+</body>
+</html>

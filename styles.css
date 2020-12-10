@@ -1,0 +1,115 @@
+body {
+	background-image: url("bg_1004.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #FFFFFF
+}
+
+
+.row{
+	padding-top: 15px;
+}
+
+.logo {
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	
+.left {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0.8; 
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0.8; 
+}
+	
+.nav-custom { 
+	color: black;
+	font-size: 25px;
+	margin-right: 50px;
+	margin-top: 0px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", "serif";
+}
+a.navi-link{ 
+	color: black;
+	font-size: 25px;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+a.gallery:hover{ 
+	color: black;
+  	margin: 0;
+	opacity: 0.8;	
+}
+
+.contact-image {
+	height: 400px;
+	width: auto;
+	box-shadow: 6px 6px 30px #000000;
+}
+h1 {
+	font-size: 35px;
+	color: #ffffff;
+}
+
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.image-gallery {
+    padding-right: 0;
+    padding-left: 0;
+	margin: 0px;
+  	border: 1px solid #000000;
+	overflow: auto;
+	box-shadow: 6px 6px 30px #000000;
+}
+a:hover{ 
+	color: red;
+}
+
+.teksti {
+	color: #ffffff;
+	font-size: 25px;
+	align-content: center;
+}
+
+.front-image {
+	display: block;
+	border: 1px solid white;
+	width: 600px;
+	height: auto;
+	box-shadow: 6px 6px 30px #000000;
+}
+
+
+.crmark {
+	height: 50px;
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	z-index: 1030;
+	width: 100%;
+	color: #FFFFFF;
+	opacity: 0.5;
+}
